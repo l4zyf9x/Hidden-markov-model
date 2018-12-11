@@ -226,17 +226,17 @@ class Token():
         return self.tag
 
 
-fix_bug_file = 'experiment/test_data.txt'
-trainFile = 'corpus/train/train.txt'
-devFile = 'corpus/train/dev.txt'
-testFile = 'corpus/vlsp2016/test.txt'
-model = HMM(3)
-corpus = model.loadCorpus(trainFile)
-test_corpus = model.loadCorpus(testFile)
-model.initialize_matrix(corpus)
-model.saveModel()
-# model.loadModel()
-print(model.evaluate(test_corpus))
+# fix_bug_file = 'experiment/test_data.txt'
+# trainFile = 'corpus/train/train.txt'
+# devFile = 'corpus/train/dev.txt'
+# testFile = 'corpus/vlsp2016/test.txt'
+# model = HMM(3)
+# corpus = model.loadCorpus(trainFile)
+# test_corpus = model.loadCorpus(testFile)
+# model.initialize_matrix(corpus)
+# model.saveModel()
+# # model.loadModel()
+# print(model.evaluate(test_corpus))
 
 
 # index = 68
